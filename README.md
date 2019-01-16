@@ -21,6 +21,7 @@ See [schema](common/FileExchange.proto)
 ## How to build
 
 At the moment only `cmake` is supported.
+
 Typical out-of-source build command sequence:
 ```
 mkdir build
@@ -32,9 +33,13 @@ make
 ## How to run
 
 Server app:
+
 `./FileExchangeServer [<file> ...]`
+
 Files provided on the command line are managed by the server i.e. are available for download.
 
+
 Client app:
+
 `./FileExchangeClient download|upload <file>`
 
