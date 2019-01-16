@@ -75,12 +75,3 @@ target_link_libraries(FileExchangeClient
                       ${GRPC_CPP_LIB}
                       ${Protobuf_LIBRARIES})
 
-
-#    add_executable(GTestMain
-#                   ${TEST_DIR}/field_test.cpp
-#                   ${TEST_DIR}/record_test.cpp
-#                   ${TEST_DIR}/file_test.cpp)
-#
-#    target_include_directories(GTestMain SYSTEM
-#                               PRIVATE ${GTEST_INCLUDE_DIR})
-
