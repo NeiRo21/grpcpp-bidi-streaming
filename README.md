@@ -5,8 +5,9 @@ This is a gRPC C++ bidirectional streaming example: a simple file server.
 
 ## Features
 * two-way asynchronous communication
+* block data transfer
 * multiple processing threads (the number of threads is currently hard-coded)
-* memory management
+* safe memory management
 * managed file locking
 * pending request cancellation
 
